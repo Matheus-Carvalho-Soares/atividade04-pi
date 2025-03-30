@@ -1,0 +1,38 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: green;
+    color: orangered;
+}
+.cabecalho{
+    color: #123FAE;
+    justify-items: center;
+}
+.conteudo{
+    background-color: navy;
+    color: white;
+}
+.tituloP{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+.subtitulo{
+    color: purple;
+}
+.conteudo p{
+    color: #E4005A;
+    font-size: 42px;
+}
+.conteudo p:nth-of-type(3) {
+    color: purple;
+    text-decoration: underline;
+  }
+@media (max-width: 480px){
+.container{
+    background-color: #add8e6;
+    }
+}
+  
